@@ -1,0 +1,13 @@
+customer,latitude,longitude,priority,weight_kg
+Oslo Sentrum Shop,59.9139,10.7522,High,2.5
+Grünerløkka Cafe,59.9231,10.7599,Medium,1.2
+Majorstuen Books,59.9325,10.7174,Low,4.0
+Tøyen Flowers,59.9120,10.7790,High,0.8
+Storo Electronics,59.9440,10.7810,Medium,6.3
+Bislett Bakery,59.9245,10.7333,Low,3.1
+Aker Brygge Office,59.9092,10.7289,High,5.0
+Ullevål Hospital,59.9360,10.7460,Medium,7.5
+Ljabru House,59.8710,10.8010,Low,2.0
+Sinsen Kiosk,59.9390,10.7780,High,1.0
+Fornebu Warehouse,95.0000,10.6320,Medium,10.0
+Lambertseter Mall,59.8840,10.8140,URGENT,-3.5

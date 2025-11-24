@@ -1,0 +1,83 @@
+2025-11-24 07:21:05,591 - INFO - READING files/orders.csv
+2025-11-24 07:21:05,591 - INFO - ADDED ORDER in line 2: ['Oslo Sentrum Shop', '59.9139', '10.7522', 'High', '2.5']
+2025-11-24 07:21:05,591 - INFO - ADDED ORDER in line 3: ['Grünerløkka Cafe', '59.9231', '10.7599', 'Medium', '1.2']
+2025-11-24 07:21:05,591 - INFO - ADDED ORDER in line 4: ['Majorstuen Books', '59.9325', '10.7174', 'Low', '4.0']
+2025-11-24 07:21:05,591 - INFO - ADDED ORDER in line 5: ['Tøyen Flowers', '59.9120', '10.7790', 'High', '0.8']
+2025-11-24 07:21:05,591 - INFO - ADDED ORDER in line 6: ['Storo Electronics', '59.9440', '10.7810', 'Medium', '6.3']
+2025-11-24 07:21:05,591 - INFO - ADDED ORDER in line 7: ['Bislett Bakery', '59.9245', '10.7333', 'Low', '3.1']
+2025-11-24 07:21:05,591 - INFO - ADDED ORDER in line 8: ['Aker Brygge Office', '59.9092', '10.7289', 'High', '5.0']
+2025-11-24 07:21:05,591 - INFO - ADDED ORDER in line 9: ['Ullevål Hospital', '59.9360', '10.7460', 'Medium', '7.5']
+2025-11-24 07:21:05,591 - INFO - ADDED ORDER in line 10: ['Ljabru House', '59.8710', '10.8010', 'Low', '2.0']
+2025-11-24 07:21:05,591 - INFO - ADDED ORDER in line 11: ['Sinsen Kiosk', '59.9390', '10.7780', 'High', '1.0']
+2025-11-24 07:21:05,591 - WARNING - REJECTED ORDER Invalid row in files/orders.csv (line 12): ['Fornebu Warehouse', '95.0000', '10.6320', 'Medium', '10.0'] -> latitude must be in [-90, 90]
+2025-11-24 07:21:05,591 - WARNING - REJECTED ORDER Invalid row in files/orders.csv (line 13): ['Lambertseter Mall', '59.8840', '10.8140', 'URGENT', '-3.5'] -> priority must be one of dict_keys(['High', 'Medium', 'Low'])
+2025-11-24 07:21:05,592 - INFO - START optimize function
+2025-11-24 07:21:05,592 - INFO - Calculated distances from depot.
+2025-11-24 07:21:05,592 - INFO - Calculated weighted depot->stop values (mode=Walking, strategy=FASTEST, orders=10)
+2025-11-24 07:21:05,592 - INFO - CALCULATED DISTANCES MATRIX for 10 orders (shape 10x10)
+2025-11-24 07:21:05,592 - INFO - CALCULATED STRATEGY MATRIX for Transport Mode: Walking, Strategy: FASTEST
+2025-11-24 07:21:05,592 - INFO - FINISH  optimize function duration = 0.000417 seconds
+2025-11-24 07:21:05,752 - INFO - Route plot saved to files/route.png
+2025-11-24 07:27:25,061 - INFO - READING files/orders.csv
+2025-11-24 07:27:25,061 - INFO - ADDED ORDER in line 2: ['Oslo Sentrum Shop', '59.9139', '10.7522', 'High', '2.5']
+2025-11-24 07:27:25,061 - INFO - ADDED ORDER in line 3: ['Grünerløkka Cafe', '59.9231', '10.7599', 'Medium', '1.2']
+2025-11-24 07:27:25,061 - INFO - ADDED ORDER in line 4: ['Majorstuen Books', '59.9325', '10.7174', 'Low', '4.0']
+2025-11-24 07:27:25,061 - INFO - ADDED ORDER in line 5: ['Tøyen Flowers', '59.9120', '10.7790', 'High', '0.8']
+2025-11-24 07:27:25,061 - INFO - ADDED ORDER in line 6: ['Storo Electronics', '59.9440', '10.7810', 'Medium', '6.3']
+2025-11-24 07:27:25,062 - INFO - ADDED ORDER in line 7: ['Bislett Bakery', '59.9245', '10.7333', 'Low', '3.1']
+2025-11-24 07:27:25,062 - INFO - ADDED ORDER in line 8: ['Aker Brygge Office', '59.9092', '10.7289', 'High', '5.0']
+2025-11-24 07:27:25,062 - INFO - ADDED ORDER in line 9: ['Ullevål Hospital', '59.9360', '10.7460', 'Medium', '7.5']
+2025-11-24 07:27:25,062 - INFO - ADDED ORDER in line 10: ['Ljabru House', '59.8710', '10.8010', 'Low', '2.0']
+2025-11-24 07:27:25,062 - INFO - ADDED ORDER in line 11: ['Sinsen Kiosk', '59.9390', '10.7780', 'High', '1.0']
+2025-11-24 07:27:25,062 - WARNING - REJECTED ORDER Invalid row in files/orders.csv (line 12): ['Fornebu Warehouse', '95.0000', '10.6320', 'Medium', '10.0'] -> latitude must be in [-90, 90]
+2025-11-24 07:27:25,062 - WARNING - REJECTED ORDER Invalid row in files/orders.csv (line 13): ['Lambertseter Mall', '59.8840', '10.8140', 'URGENT', '-3.5'] -> priority must be one of dict_keys(['High', 'Medium', 'Low'])
+2025-11-24 07:27:25,062 - INFO - START optimize function
+2025-11-24 07:27:25,062 - INFO - Starting route optimization (orders=10, mode=Walking, strategy=FASTEST)
+2025-11-24 07:27:25,062 - INFO - Calculated distances from depot.
+2025-11-24 07:27:25,062 - INFO - Calculated weighted depot->stop values (mode=Walking, strategy=FASTEST, orders=10)
+2025-11-24 07:27:25,062 - INFO - CALCULATED DISTANCES MATRIX for 10 orders (shape 10x10)
+2025-11-24 07:27:25,062 - INFO - CALCULATED STRATEGY MATRIX for Transport Mode: Walking, Strategy: FASTEST
+2025-11-24 07:27:25,062 - INFO - FINISH  optimize function duration = 0.000471 seconds
+2025-11-24 07:27:25,219 - INFO - Route plot saved to files/route.png
+2025-11-24 07:30:59,047 - INFO - READING files/orders.csv
+2025-11-24 07:30:59,047 - INFO - ADDED ORDER in line 2: ['Oslo Sentrum Shop', '59.9139', '10.7522', 'High', '2.5']
+2025-11-24 07:30:59,047 - INFO - ADDED ORDER in line 3: ['Grünerløkka Cafe', '59.9231', '10.7599', 'Medium', '1.2']
+2025-11-24 07:30:59,047 - INFO - ADDED ORDER in line 4: ['Majorstuen Books', '59.9325', '10.7174', 'Low', '4.0']
+2025-11-24 07:30:59,047 - INFO - ADDED ORDER in line 5: ['Tøyen Flowers', '59.9120', '10.7790', 'High', '0.8']
+2025-11-24 07:30:59,047 - INFO - ADDED ORDER in line 6: ['Storo Electronics', '59.9440', '10.7810', 'Medium', '6.3']
+2025-11-24 07:30:59,047 - INFO - ADDED ORDER in line 7: ['Bislett Bakery', '59.9245', '10.7333', 'Low', '3.1']
+2025-11-24 07:30:59,047 - INFO - ADDED ORDER in line 8: ['Aker Brygge Office', '59.9092', '10.7289', 'High', '5.0']
+2025-11-24 07:30:59,047 - INFO - ADDED ORDER in line 9: ['Ullevål Hospital', '59.9360', '10.7460', 'Medium', '7.5']
+2025-11-24 07:30:59,047 - INFO - ADDED ORDER in line 10: ['Ljabru House', '59.8710', '10.8010', 'Low', '2.0']
+2025-11-24 07:30:59,047 - INFO - ADDED ORDER in line 11: ['Sinsen Kiosk', '59.9390', '10.7780', 'High', '1.0']
+2025-11-24 07:30:59,047 - WARNING - REJECTED ORDER Invalid row in files/orders.csv (line 12): ['Fornebu Warehouse', '95.0000', '10.6320', 'Medium', '10.0'] -> latitude must be in [-90, 90]
+2025-11-24 07:30:59,047 - WARNING - REJECTED ORDER Invalid row in files/orders.csv (line 13): ['Lambertseter Mall', '59.8840', '10.8140', 'URGENT', '-3.5'] -> priority must be one of dict_keys(['High', 'Medium', 'Low'])
+2025-11-24 07:30:59,048 - INFO - START optimize function
+2025-11-24 07:30:59,048 - INFO - Starting route optimization (orders=10, mode=Walking, strategy=FASTEST)
+2025-11-24 07:30:59,048 - INFO - Calculated distances from depot.
+2025-11-24 07:30:59,048 - INFO - Calculated weighted depot->stop values (mode=Walking, strategy=FASTEST, orders=10)
+2025-11-24 07:30:59,048 - INFO - CALCULATED DISTANCES MATRIX for 10 orders (shape 10x10)
+2025-11-24 07:30:59,048 - INFO - CALCULATED STRATEGY MATRIX for Transport Mode: Walking, Strategy: FASTEST
+2025-11-24 07:30:59,048 - INFO - FINISH  optimize function duration = 0.000566 seconds
+2025-11-24 07:30:59,208 - INFO - Route plot saved to files/route.png
+2025-11-24 07:35:46,879 - INFO - READING files/orders.csv
+2025-11-24 07:35:46,880 - INFO - ADDED ORDER in line 2: ['Oslo Sentrum Shop', '59.9139', '10.7522', 'High', '2.5']
+2025-11-24 07:35:46,880 - INFO - ADDED ORDER in line 3: ['Grünerløkka Cafe', '59.9231', '10.7599', 'Medium', '1.2']
+2025-11-24 07:35:46,880 - INFO - ADDED ORDER in line 4: ['Majorstuen Books', '59.9325', '10.7174', 'Low', '4.0']
+2025-11-24 07:35:46,880 - INFO - ADDED ORDER in line 5: ['Tøyen Flowers', '59.9120', '10.7790', 'High', '0.8']
+2025-11-24 07:35:46,880 - INFO - ADDED ORDER in line 6: ['Storo Electronics', '59.9440', '10.7810', 'Medium', '6.3']
+2025-11-24 07:35:46,880 - INFO - ADDED ORDER in line 7: ['Bislett Bakery', '59.9245', '10.7333', 'Low', '3.1']
+2025-11-24 07:35:46,880 - INFO - ADDED ORDER in line 8: ['Aker Brygge Office', '59.9092', '10.7289', 'High', '5.0']
+2025-11-24 07:35:46,880 - INFO - ADDED ORDER in line 9: ['Ullevål Hospital', '59.9360', '10.7460', 'Medium', '7.5']
+2025-11-24 07:35:46,880 - INFO - ADDED ORDER in line 10: ['Ljabru House', '59.8710', '10.8010', 'Low', '2.0']
+2025-11-24 07:35:46,880 - INFO - ADDED ORDER in line 11: ['Sinsen Kiosk', '59.9390', '10.7780', 'High', '1.0']
+2025-11-24 07:35:46,880 - WARNING - REJECTED ORDER Invalid row in files/orders.csv (line 12): ['Fornebu Warehouse', '95.0000', '10.6320', 'Medium', '10.0'] -> latitude must be in [-90, 90]
+2025-11-24 07:35:46,880 - WARNING - REJECTED ORDER Invalid row in files/orders.csv (line 13): ['Lambertseter Mall', '59.8840', '10.8140', 'URGENT', '-3.5'] -> priority must be one of dict_keys(['High', 'Medium', 'Low'])
+2025-11-24 07:35:46,880 - INFO - START optimize function
+2025-11-24 07:35:46,880 - INFO - Starting route optimization (orders=10, mode=Walking, strategy=FASTEST)
+2025-11-24 07:35:46,880 - INFO - Calculated distances from depot.
+2025-11-24 07:35:46,880 - INFO - Calculated weighted depot->stop values (mode=Walking, strategy=FASTEST, orders=10)
+2025-11-24 07:35:46,880 - INFO - CALCULATED DISTANCES MATRIX for 10 orders (shape 10x10)
+2025-11-24 07:35:46,881 - INFO - CALCULATED STRATEGY MATRIX for Transport Mode: Walking, Strategy: FASTEST
+2025-11-24 07:35:46,881 - INFO - FINISH  optimize function duration = 0.000414 seconds
+2025-11-24 07:35:47,039 - INFO - Route plot saved to files/route.png
