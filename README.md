@@ -1,4 +1,4 @@
-# CourierOptimizer – Part I of ACIT4420 Final Assignment
+#  Part I of ACIT4420 Final Assignment
 This repository contains **Part I** of the final assignment for the ACIT4420 Python scripting course at OsloMet.
 
 
