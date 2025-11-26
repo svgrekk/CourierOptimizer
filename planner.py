@@ -1,11 +1,11 @@
-from orders import get_orders
-from config import OSLO_S_LAT, OSLO_S_LON, ROUTE_FILE, ROUTE_IMG
-from distance import haver_dist
+from CourierOptimizer.orders import get_orders
+from CourierOptimizer.config import OSLO_S_LAT, OSLO_S_LON, ROUTE_FILE, ROUTE_IMG
+from CourierOptimizer.distance import haver_dist
 import numpy as np
-from log import get_logger
-from transport_mode import car, bike, walk
+from CourierOptimizer.log import get_logger
+from CourierOptimizer.transport_mode import walk
 import csv
-from decorators import timed
+from CourierOptimizer.decorators import timed
 import matplotlib.pyplot as plt
 from typing import List, Dict
 

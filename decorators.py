@@ -1,5 +1,5 @@
 # decorators.py
-from log import get_logger
+from CourierOptimizer.log import get_logger
 import datetime
 
 logger = get_logger()

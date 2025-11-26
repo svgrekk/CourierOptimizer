@@ -1,6 +1,6 @@
 # log.py
 import logging
-from config import RUN_LOG_FILE
+from CourierOptimizer.config import RUN_LOG_FILE
 
 
 def get_logger():

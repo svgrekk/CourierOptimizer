@@ -1,7 +1,7 @@
 # orders.py
-from log import get_logger
-from config import ORDERS_FILE, REJECTED_ORDERS
-from delivery import Delivery
+from CourierOptimizer.log import get_logger
+from CourierOptimizer.config import ORDERS_FILE, REJECTED_ORDERS
+from CourierOptimizer.delivery import Delivery
 import csv
 
 logger = get_logger()
