@@ -80,3 +80,54 @@ Typical layout:
 │
 └── tests/
     └── test_courieroptimizer.py
+```
+## Installation
+
+CourierOptimizer is a regular Python project; you only need to install its dependencies.
+
+From the repository root:
+
+```bash
+# (optional) create and activate a virtual environment
+python -m venv venv
+source venv/bin/activate    # on Linux/macOS
+# venv\Scripts\activate     # on Windows
+
+# install dependencies
+pip install -r requirements.txt
+```
+
+## Input format
+
+CourierOptimizer reads deliveries from a CSV file with header:
+
+    customer,latitude,longitude,priority,weight_kg
+
+Example:
+
+    customer,latitude,longitude,priority,weight_kg
+    Alice,59.9127,10.7461,High,2.0
+    Bob,59.9300,10.7000,Medium,1.2
+    Charlie,59.9000,10.8000,Low,0.5
+
+
+## Usage
+
+Run the tool from the repository root:
+
+    python -m CourierOptimizer
+
+This starts an interactive text menu, for example:
+
+    === NordicExpress Courier Optimizer ===
+    Current orders file: /path/to/orders.csv
+    Transport mode:      car
+    Objective:           FASTEST
+    Depot coordinates:   59.91273, 10.74609
+    ---------------------------------------
+    1) Change orders file
+    2) Choose transport mode (car / bike / walk)
+    3) Choose objective (FASTEST / CHEAPEST / LOWEST_CO2)
+    4) Change depot coordinates
+    5) Run optimization
+    0) Exit
