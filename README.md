@@ -1,4 +1,4 @@
-#  Part I of ACIT4420 Final Assignment
+# ACIT4420 – Final Assignment, Part I
 This repository contains **Part I** of the final assignment for the ACIT4420 Python scripting course at OsloMet.
 
 
