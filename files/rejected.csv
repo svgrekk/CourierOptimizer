@@ -1,0 +1,8 @@
+"latitude must be in [-90, 90]",Fornebu Warehouse,95.0000,10.6320,Medium,10.0
+"priority must be one of dict_keys(['High', 'Medium', 'Low'])",Lambertseter Mall,59.8840,10.8140,URGENT,-3.5
+"priority must be 'High', 'Medium' or 'Low'",Aker Brygge Office,59.9092,10.7289,Hig,5.0
+"latitude must be in [-90, 90]",Fornebu Warehouse,95.0000,10.6320,Medium,10.0
+"priority must be 'High', 'Medium' or 'Low'",Lambertseter Mall,59.8840,10.8140,URGENT,-3.5
+latitude must be numeric,Bad Customer,abc,xyz,Low,-5
+latitude must be numeric,Bad Customer,abc,xyz,Low,-5
+latitude must be numeric,Bad Customer,abc,xyz,Low,-5

@@ -1,4 +1,8 @@
 # delivery.py
+import re
+
+
+PRIORITY_PATTERN = re.compile(r"^(High|Medium|Low)$")
 class Delivery:
     VALID_PRIORITIES = {"High":0.6, "Medium":1.0, "Low":1.2}
 
@@ -56,10 +60,12 @@ class Delivery:
         return self._priority
 
     @priority.setter
-    def priority(self, value):
-        if value not in self.VALID_PRIORITIES.keys():
-            raise ValueError(f"priority must be one of {self.VALID_PRIORITIES.keys()}")
+    def priority(self, value: str) -> None:
+        """Validate and set priority as numeric weight."""
+        if not PRIORITY_PATTERN.fullmatch(value):
+            raise ValueError("priority must be 'High', 'Medium' or 'Low'")
         self._priority = self.VALID_PRIORITIES[value]
+
 
     # --- weight_kg ---
     @property
